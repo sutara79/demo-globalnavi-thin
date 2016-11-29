@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/**
+ * グローバルナビ共通
+ */
+.globalnavi ul {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.globalnavi ul:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.globalnavi li {
+  float: left;
+  text-align: center;
+  width: 20%;
+}
+/**
+ * オリジナル専用
+ */
+.globalnavi-original {
+  background-color: #faf;
+}
+.globalnavi-original li {
+  padding: 4em 0;
+}
+/**
+ * 途中ナビ専用
+ */
+.globalnavi-thin {
+  background-color: #aaf;
+  display: none;
+  position: fixed;
+  width: 100%;
+}
+.globalnavi-thin li {
+  padding: 2em 0;
+}
