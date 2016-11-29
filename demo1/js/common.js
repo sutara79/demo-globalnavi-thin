@@ -1,7 +1,7 @@
 /**
- * PC向け グローバルナビのロゴだけを固定する
+ * 途中からスライドダウンするグローバルナビの動きを設定する
  */
-var fixGlobalnaviForPc = function() {
+var setGlobalnaviThin = function() {
   var direction = null;
   var gnav_thin = $('.globalnavi-thin');
   var gnav_orig = $('.globalnavi-original');
@@ -45,5 +45,5 @@ var slideDownGlobalnavi = function(gnav_thin) {
  * ページ読み込み後に実行する
  */
 $(function() {
-  fixGlobalnaviForPc();
+  setGlobalnaviThin();
 });
